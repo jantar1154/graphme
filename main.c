@@ -44,9 +44,6 @@ int main(int argc, char const *argv[]) {
     int *g_highest_val = largest(argc, argv_int);
     int *g_lowest_val = smallest(argc, argv_int);
 
-    printf("Lowest: %i\n", *g_lowest_val);
-    printf("Highest: %i\n", *g_highest_val);
-
     int g_heightmap[g_width];
     int g_treshold[g_width];
 
@@ -54,7 +51,6 @@ int main(int argc, char const *argv[]) {
     for (int i = 1; i < g_width+1; i++) {
         g_heightmap[i-1] = map(argv_int[i], *g_lowest_val, *g_highest_val, 1, g_height);
         g_treshold[i-1] = g_height - g_heightmap[i-1];
-        printf("%i: %i\n", argv_int[i], g_heightmap[i-1]);
     }
 
     // creates a graph matrix and applies height map to it
