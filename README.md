@@ -3,7 +3,7 @@ This is a small project of mine I created because I was bored. It takes in mutip
 
 ## Usage
 ### Prerequisities
-You will need a compiler (i.e. gcc)
+You will need a compiler (e.g. gcc)
 
 ### Installation
 1. Please copy these commands and paste them into your terminal (Linux):
