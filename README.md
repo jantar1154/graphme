@@ -10,7 +10,8 @@ You will need a compiler (e.g. gcc)
 ```bash
 git clone "https://github.com/jantar1154/graphme"
 gcc graphme/main.c -o graphme/graphme
-sudo mv graphme /usr/local/bin
+sudo mv graphme/graphme /usr/local/bin
+rm -rf graphme
 ```
 2. Reload your terminal and the tool is ready to use!
 
